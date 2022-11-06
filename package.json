@@ -2,7 +2,7 @@
   "name": "amazon-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://melrickpereira.github.io/Amazon-Clone-React/",
+  "homepage": "https://MelrickPereira.github.io/Amazon-Clone-React/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
