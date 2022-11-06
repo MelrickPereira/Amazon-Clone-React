@@ -1,0 +1,38 @@
+
+.product_info
+{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    min-width: 100px;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    max-height: 400px;
+    align-items: center;
+    
+    
+}
+.product_img>img
+{
+    height: 150px;
+    
+}
+
+.product
+{
+    z-index: 1;
+    margin: 15px;
+}
+
+.product_rating 
+{
+   
+}
+.add_to_cart_btn>button
+{
+    color: rgb(0 0 0);
+    background-color: #efbb38;
+    border-radius: 3px;
+    border-color: #d39f08;
+}
