@@ -1,0 +1,42 @@
+.home_img
+{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -280px;
+    mask-image: linear-gradient(rgba(0, 0, 0, 1), rgb(0,0,0,0));
+}
+@media screen and (max-width:1035px){
+    .home_img
+    {
+        margin-bottom: -150px;
+    }
+}
+@media screen and (max-width:393px){
+    .home_img
+    {
+        margin-bottom: -50px;
+    }
+}
+.home{
+    /* display: flex; */
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.home_row
+{
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 1500PX;
+    flex-wrap: wrap;
+
+}
+.home_container
+{  
+    
+}
