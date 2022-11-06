@@ -2,15 +2,19 @@ import React from 'react';
 import './Header.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import {Link} from "react-router-dom"
 
 function Header() {
   return (
     <div className='header'>
+      <Link to="/Amazon-Clone-React">
       <img 
         className='header_logo' 
         src='https://wildfiresocial.com/wp-content/uploads/2019/01/amazon-logo-white._cb1509666198_.png'
       
       />
+      </Link>
+      
       <div className='header_search'> 
         <input className='header_search_input' type ="text"></input>
        <SearchIcon className='header_search_icon' />
@@ -40,12 +44,16 @@ function Header() {
                     Prime
                 </span>
             </div>
+            <Link to="/Amazon-Clone-React/checkout">
             <div className='header_option_basket'>
-            < ShoppingBasketIcon  />
+              
+              < ShoppingBasketIcon  />
             <span className="header_option_line2 header_basket_count">
                 0
             </span>
             </div>
+            </Link>
+            
       </div>
     </div>
   )

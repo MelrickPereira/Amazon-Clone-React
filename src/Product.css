@@ -24,3 +24,15 @@
     z-index: 1;
     margin: 15px;
 }
+
+.product_rating 
+{
+   
+}
+.add_to_cart_btn>button
+{
+    color: rgb(0 0 0);
+    background-color: #efbb38;
+    border-radius: 3px;
+    border-color: #d39f08;
+}

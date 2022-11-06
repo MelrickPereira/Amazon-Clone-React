@@ -1,15 +1,27 @@
 import React from 'react'
 import "./Product.css"
-function Product() {
+import StarIcon from '@mui/icons-material/Star';
+
+function Product({id,title,price,image,description,rating}) {
   return (
     <div className='product'>
       <div className="product_info">
-        <div className="product_title"> Title </div>
-        <div className="product_price">$<strong>99.99</strong></div>
+        <div className="product_title">{title} </div>
+        <div className="product_price">$<strong>{price}</strong></div>
         <div className="product_img">
-            <img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-math-90946.jpg&fm=jpg" alt="" />
+            <img src={image} alt="" />
         </div>
-        <div className="product_button">
+        <div className="product_description">
+            <p>{description}</p>
+        </div>
+        <div className='product_rating'>
+          {Array(rating).fill().map((_,i)=>(
+            <StarIcon />
+          ))}
+        
+        </div>
+       
+        <div className="add_to_cart_btn">
             <button>add item</button>
         </div>
       </div>
