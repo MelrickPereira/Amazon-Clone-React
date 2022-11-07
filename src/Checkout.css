@@ -1,0 +1,28 @@
+.Checkout_page
+{   
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    height: 100vh;
+    
+}
+
+.Checkout_container
+{
+    border-radius: 5px;
+    padding: 10px;
+    height: 100px;
+    margin:20px;
+    background-color: rgb(255, 255, 255);
+}
+.Checkout_heading
+{
+   
+}
+.shopping_cart
+{
+    display: flex;
+    flex: 1;
+    height: 50px;
+}

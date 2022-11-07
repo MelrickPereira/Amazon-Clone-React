@@ -1,0 +1,26 @@
+.subtotal
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+}
+.checkbox_item
+{
+    padding: 3px;
+}
+.check
+{
+    font-weight: 400;
+    font-size: 0.7em;
+    margin-bottom: 6px;
+}
+.subtotal>button
+{
+    color: rgb(0 0 0);
+    background-color: #efbb38;
+    border-radius: 3px;
+    border-color: #d39f08;
+}

@@ -1,0 +1,35 @@
+.Checkout_heading
+{
+    font-weight: 600;
+    padding: 10px;
+    height: 20vh;
+    border-radius: 5px;
+    margin:20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex: 1;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 26px;
+    border-bottom: 2px solid ;
+}
+.item_info
+{
+    
+    font-weight: 600;
+    padding: 10px;
+    height: 100vh;
+    border-radius: 5px;
+    margin:20px;
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 26px;
+   
+}
+.shopping_cart
+{
+    display: flex;
+    flex-direction: column;
+}
