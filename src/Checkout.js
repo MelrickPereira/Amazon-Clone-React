@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import "./Checkout.css";
+import ShoppingCart from './ShoppingCart';
+import Subtotal from './Subtotal';
 
 function Checkout() {
   return (
-    <div>
-      <div >
-        <h1>This is a checkout page</h1>
+    <div className='Checkout_page'>
+     <div className='shopping_cart'><ShoppingCart /></div> 
+      <div className='Checkout_container'>
+      <Subtotal value={1} prefix="$" price = {99.99}/>
+      
       </div>
+     
     </div>
   )
 }
