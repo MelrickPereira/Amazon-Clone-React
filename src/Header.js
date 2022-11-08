@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import {Link} from "react-router-dom"
+import {count} from "./Product";
 
 function Header() {
   return (
@@ -48,14 +49,16 @@ function Header() {
             <div className='header_option_basket'>
               
               < ShoppingBasketIcon  />
-            <span className="header_option_line2 header_basket_count">
-                0
+            <span id="header_basket_count" className="header_option_line2 header_basket_count">
+            0
             </span>
+            
             </div>
             </Link>
             
       </div>
     </div>
+  
   )
 }
 

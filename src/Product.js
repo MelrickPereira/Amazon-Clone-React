@@ -1,8 +1,13 @@
-import React from 'react'
+
 import "./Product.css"
 import StarIcon from '@mui/icons-material/Star';
+import { useState } from "react";
+export let count = 0;
 
 function Product({id,title,price,image,description,rating}) {
+
+  const [state,setCount] = useState(0);
+
   return (
     <div className='product'>
       <div className="product_info">
@@ -22,7 +27,12 @@ function Product({id,title,price,image,description,rating}) {
         </div>
        
         <div className="add_to_cart_btn">
-            <button>add item</button>
+            <button onClick={() => 
+              {
+                setCount(state + 1);
+                count++;
+                document.getElementById("header_basket_count").innerHTML = count;
+              }}>add item</button>
         </div>
       </div>
     </div>
