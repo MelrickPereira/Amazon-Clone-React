@@ -21,11 +21,9 @@ function Home() {
             image = "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-math-90946.jpg&fm=jpg"
             description="100 MP Camera"
             />
-        
-         
-          
-        </div>
 
+        </div>
+    
     </div>
   )
 }

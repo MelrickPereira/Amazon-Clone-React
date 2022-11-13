@@ -1,12 +1,34 @@
 
 import "./Product.css"
 import StarIcon from '@mui/icons-material/Star';
-import { useState } from "react";
+import { useStateValue } from "./StateProvider";
+
+
+
+
 export let count = 0;
 
 function Product({id,title,price,image,description,rating}) {
 
-  const [state,setCount] = useState(0);
+  const [{basket},dispatch] = useStateValue(0);
+  const addToBasket = () =>
+  {
+    //dispatch the item into the data layer
+    dispatch(
+      {
+        type: "ADD_TO_CART",
+        item:{
+          id:id,
+          title:title,
+          price:price,
+          image:image,
+          description:description,
+          rating:rating,
+        }
+      }
+    )
+  }
+
 
   return (
     <div className='product'>
@@ -27,12 +49,7 @@ function Product({id,title,price,image,description,rating}) {
         </div>
        
         <div className="add_to_cart_btn">
-            <button onClick={() => 
-              {
-                setCount(state + 1);
-                count++;
-                document.getElementById("header_basket_count").innerHTML = count;
-              }}>add item</button>
+            <button onClick={addToBasket}>add item</button>
         </div>
       </div>
     </div>
