@@ -2,7 +2,7 @@
 import "./Product.css"
 import StarIcon from '@mui/icons-material/Star';
 import { useStateValue } from "./StateProvider";
-
+import {getBasketTotal} from "./reducer"
 
 
 
@@ -27,7 +27,9 @@ function Product({id,title,price,image,description,rating}) {
         }
       }
     )
+   
   }
+  getBasketTotal(basket)
 
 
   return (

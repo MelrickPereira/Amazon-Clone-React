@@ -1,0 +1,23 @@
+.Checkout_item
+{
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.Checkout_product_img
+{
+    width: 300px;
+    height: 200px;
+}
+.Product_info
+{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+button{
+    margin: 16px;
+}
