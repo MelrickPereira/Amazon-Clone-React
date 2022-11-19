@@ -11,7 +11,7 @@ function Subtotal() {
   return (
     <div className='subtotal'>
       
-    <p className='checkbox_item'>Subtotal ({basket.length} item): ${Total}</p> 
+    <p className='sub_text'>Subtotal ({basket.length} item): ${Total}</p> 
     <p className='checkbox_item check'><input type="checkbox" /> This order contains a gift</p>
     <button className = 'checkbox_item' >Proceed to Buy</button>
     </div>

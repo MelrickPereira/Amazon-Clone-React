@@ -1,0 +1,53 @@
+.container
+{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 10%;
+    padding: 5px;
+    height: fit-content;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+    width:25%;
+    border: 2px solid black;
+}
+.terms
+{
+    
+   
+    text-align: center;
+    font-size: 12px;
+    
+}
+.outerContainer
+{
+   
+}
+.img
+{
+    height: 120px;
+    width: 210px;
+    margin: auto ;
+}
+button
+{
+    background-color: rgb(246, 182, 65);
+    border: 1px solid rgb(65, 49, 5);
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.text
+{
+  
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px;
+    flex:1;
+}
+.container_element
+{
+    margin: 10px;
+    flex: 1;
+}

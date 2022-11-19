@@ -23,6 +23,7 @@ function Header() {
        <SearchIcon className='header_search_icon' />
       </div>
       <div className='header_nev'>
+           <Link style={{textDecoration: 'none'}} to='/Amazon-Clone-React/login' >
             <div className='header_option'>
                 <span className='header_option_line1'>
                     Hello Guest
@@ -31,6 +32,7 @@ function Header() {
                     Sign In
                 </span>
             </div>
+            </Link>
             <div className='header_option'>
             <span className='header_option_line1'>
                     Returns
@@ -47,7 +49,7 @@ function Header() {
                     Prime
                 </span>
             </div>
-            <Link to="/Amazon-Clone-React/checkout">
+            <Link style={{textDecoration: 'none'}} to="/Amazon-Clone-React/checkout">
             <div className='header_option_basket'>
               
               < ShoppingBasketIcon  />

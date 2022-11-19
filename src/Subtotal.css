@@ -1,21 +1,20 @@
 .subtotal
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 600;
-    font-size: 1.2rem;
-    
+   
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
 }
-.checkbox_item
+.sub_text
 {
-    padding: 3px;
+   font-weight: 500;
 }
 .check
 {
-    font-weight: 400;
-    font-size: 0.7em;
-    margin-bottom: 6px;
+   
+   
 }
 .subtotal>button
 {

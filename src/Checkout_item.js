@@ -3,7 +3,7 @@ import "./Checkout_item.css"
 import StarIcon from '@mui/icons-material/Star';
 import { useStateValue } from "./StateProvider";
 
-function Checkout_item(img,title,description,rating) {
+function Checkout_item({id,title,price,image,description,rating}) {
     const [{basket},dispatch] = useStateValue(0);
     const removeFromBasket = () =>
 {
@@ -11,11 +11,11 @@ function Checkout_item(img,title,description,rating) {
 }
   return (
     <div className='Checkout_item'>
-        <img className = "Checkout_product_img" src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-math-90946.jpg&fm=jpg" alt="" />
+        <img className = "Checkout_product_img" src={image} alt="" />
         <div className='Product_info'>
-            <strong>Title</strong>
-            <p>Description</p>
-            <p>Price: $99.99 </p>
+            <strong>{title}</strong>
+            <p>{description}</p>
+            <p>Price: ${price}</p>
             <div className='product_rating'>
                 {Array(rating).fill().map((_,i)=>(
                 <StarIcon />
