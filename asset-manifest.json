@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Amazon-Clone-React/static/css/main.b87d1c84.css",
-    "main.js": "/Amazon-Clone-React/static/js/main.17e3a99e.js",
-    "static/js/787.ebd7646a.chunk.js": "/Amazon-Clone-React/static/js/787.ebd7646a.chunk.js",
-    "index.html": "/Amazon-Clone-React/index.html",
-    "main.b87d1c84.css.map": "/Amazon-Clone-React/static/css/main.b87d1c84.css.map",
-    "main.17e3a99e.js.map": "/Amazon-Clone-React/static/js/main.17e3a99e.js.map",
-    "787.ebd7646a.chunk.js.map": "/Amazon-Clone-React/static/js/787.ebd7646a.chunk.js.map"
+    "main.css": "/static/css/main.04b85497.css",
+    "main.js": "/static/js/main.28a51542.js",
+    "static/js/787.ebd7646a.chunk.js": "/static/js/787.ebd7646a.chunk.js",
+    "index.html": "/index.html",
+    "main.04b85497.css.map": "/static/css/main.04b85497.css.map",
+    "main.28a51542.js.map": "/static/js/main.28a51542.js.map",
+    "787.ebd7646a.chunk.js.map": "/static/js/787.ebd7646a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b87d1c84.css",
-    "static/js/main.17e3a99e.js"
+    "static/css/main.04b85497.css",
+    "static/js/main.28a51542.js"
   ]
 }
