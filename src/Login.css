@@ -9,25 +9,26 @@
     align-items: center ;
     justify-content: center;
     flex-direction: column;
-    width:25%;
+    width:30%;
     border: 2px solid black;
+    font-size: 25px;
 }
 .terms
 {
     
    
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
     
 }
 .outerContainer
 {
-   
+   margin: 200px 0;
 }
 .img
 {
     height: 120px;
-    width: 210px;
+    width: 250px;
     margin: auto ;
 }
 button

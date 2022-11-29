@@ -12,9 +12,9 @@ function App(){
   <BrowserRouter>
   
     <Routes>
-      <Route path="/Amazon-Clone-React/" element={<> <Header /> <Home /> </>} />
-      <Route path="/Amazon-Clone-React/checkout" element={<> <Header /> <Checkout /> </>} />
-      <Route path="/Amazon-Clone-React/login" element={<> <Login /></>} />
+      <Route path="/" element={<> <Header /> <Home /> </>} />
+      <Route path="/checkout" element={<> <Header /> <Checkout /> </>} />
+      <Route path="/login" element={<> <Login /></>} />
      
     </Routes>
   </BrowserRouter>
