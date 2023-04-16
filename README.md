@@ -1,4 +1,4 @@
-Your site is live at https://melrickpereira.github.io/Amazon-Clone-React/
+Your site is live at https://amazon-clone-react-neon.vercel.app/
 
 
 # Getting Started with Create React App
