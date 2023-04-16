@@ -1,4 +1,4 @@
-Your site is live at https://amazon-clone-react-neon.vercel.app/
+Your site is live at: https://amazon-clone-five-alpha.vercel.app/
 
 
 # Getting Started with Create React App
